@@ -1,7 +1,7 @@
 defaultmailer
 ==============
 
-Command line script for getting and setting a default mailer (HTTP handler) in Mac OS X.
+Command line script for getting and setting a default mailer (mailto: URL scheme handler) in Mac OS X.
 
 As there seems no other elegant way of doing it you need some Objective-C code.
 
@@ -16,6 +16,6 @@ in your path. `chmod +x defaultmailer` is probably also necessary.
 
 You can set the default mailer with:
 
-    defaultmailer -set chrome
+    defaultmailer -set mailmate
 
 Running defaultmailer without arguments shows the current setting.
