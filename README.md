@@ -1,3 +1,10 @@
+Disclaimer
+----------
+
+Note that this is just a quick hack to be able to set the default handler for the `mailto:` URL scheme from the command line. It is based on the work of stuartcryan for the `defaultbrowser` utility. Most of the changes involve replacing `http:` with `mailto:` and `browser` with `mailer`.
+
+---
+
 defaultmailer
 ==============
 
